@@ -18,11 +18,11 @@ jobs:
         python -m pip install --upgrade pip 
         pip install flake8 pep8-naming flake8-broken-line flake8-return flake8-isort
         pip install -r ./api_yamdb/requirements.txt
-
-    - name: Test with pytest
-      run: pytest
-    - name: Test flake8
-      run: flake8 api_yamdb/ api/ --exclude api/migrations/,api_yamdb/settings.py
+    - name: Tests Pytest Flake8 Django
+      run: |
+        flake8 api_yamdb/ api/ --exclude api/migrations/,api_yamdb/settings.py
+        pytest
+        python manage.py test
 
   build_and_push_to_docker_hub:
     name: Push Docker image to Docker Hub
