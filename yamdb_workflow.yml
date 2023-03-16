@@ -42,7 +42,7 @@ jobs:
         with:
           context: ./api_yamdb/
           push: true
-          tags: eve982/yambd_final:latest
+          tags: eve982/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
