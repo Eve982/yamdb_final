@@ -20,7 +20,7 @@ jobs:
         pip install -r ./api_yamdb/requirements.txt
     - name: Tests Pytest Flake8 Django
       run: |
-        flake8 api_yamdb/ api/ --exclude api/migrations/,api_yamdb/settings.py
+        python -m flake8
         pytest
         python manage.py test
 
