@@ -65,7 +65,7 @@ docker-compose exec web python manage.py createsuperuser
 ```
 docker-compose exec web python manage.py collectstatic --no-input
 ```
-Проект запущен и доступен по адресу: [localhost/admin/](localhost/admin/)
+Проект запущен и доступен по адресу: [http://localhost/admin/](http://localhost/admin/)
 
 ### **Загрузка тестовых данных в БД**
 Узнать CONTAINER ID запущенных контейнеров можно выполнив команду:
