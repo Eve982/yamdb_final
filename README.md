@@ -1,16 +1,16 @@
 ## **Описание проекта:**
-Проект api_yamdb - это API социальной сети Yamdb построенная на архитектуре Dajngo REST Framework с использованием сериалайзеров, вьюсетов и роутеров.
+Проект api_yamdb - это API социальной сети Yamdb построенная на архитектуре Django REST Framework.
 
 Api_yamdb это приложение с информацией о фильмах, книгах, музыкальных произведениях. Зарегистрированные пользователи сервиса могут оставлять отзывы к произведениям, а также комментировать свои и чужие отзывы и ставить оценки.
 
 Данный проект содержит только backend-часть, поэтому для его тестирования рекоммендуется использовать сторонние приложения, например, Postman.
 <!-- Ссылка на опубликованый проект:
 ```
-http://158.160.36.205/admin/
+http://158.160.112.128/admin/
 ```
 Ссыка на redoc.yaml:
 ```
-http://158.160.36.205/redoc/
+http://158.160.112.128/redoc/
 ``` -->
 
 [![.github/workflows/yamdb_workflow.yml](https://github.com/Eve982/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)](https://github.com/Eve982/yamdb_final/actions/workflows/yamdb_workflow.yml)
